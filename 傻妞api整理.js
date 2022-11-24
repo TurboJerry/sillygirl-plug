@@ -115,7 +115,7 @@ request({
     useproxy:false,//可选
     timeOut:millisecond,//可选,请求超时
 }
-//,function(error,info,body){} 可选参数请求回调,回调参数分别为:错误信息,请求信息,请求结果,获取http状态码使用info结构为{status,body,header}
+//,function(error,info,body){} 可选参数请求回调,回调参数分别为:错误信息,请求信息,请求结果,获取http状态码使用info结构为{status,body,headers}
 )//发送请求
 require("request")//固定写法,获取request函数
 Logger()//获取log对象,用法Logger().log(xxx)  Logger().error(xxx)
